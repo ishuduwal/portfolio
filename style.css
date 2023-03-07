@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0a192f;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 2rem 0 2rem;
+    width: 100%;
+}
+.list-option, ul{
+    display: flex;
+    gap: 3rem;
+}
+li{
+    list-style-type: none;
+    padding-top:0.3rem;
+}
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    position: relative;
+}
+a:after{
+    content: "";
+    position:absolute;
+    background-color:#64ffda;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom:-10px;
+    transition: 0.5s;
+}
+a:hover:after{
+    width: 100%;
+}
+a:hover{
+    color: #64ffda;
+}
+.logo{
+    font-family: 'Rampart One', cursive;
+    font-size: 1.3rem;
+    color:#64ffda;
+}
+#light-mode-change{
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.light-mode{
+    background-color: #fff;
+    color:#000;
+}
+.introduction-one{
+    display: grid;
+    margin: 8rem 0 0 10rem;
+}
+.download-cv{
+    width: 10rem;
+    height: 2.2rem;
+    border: 1px solid #64ffda;
+    background: transparent;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.download-cv:hover{
+    background-color: #64ffda;
+    color: #0a192f;
+}
+.intro-name{
+    color: #64ffda;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.intro-full-name{
+    color: #ccd6f6;
+    font-size: 5rem;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+}
+.intro-work{
+    color: #ccd6f6;
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+}
+.short-information-one, .short-information-two{
+    font-size: 1rem;
+}
+.short-information-two{
+    margin-bottom: 1rem;
+}
+
+
