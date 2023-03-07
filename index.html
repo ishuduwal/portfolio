@@ -12,21 +12,21 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <body>
-    <nav>
-        <div class="logo">ishuduwal</div>
-        <div class="list-option">
-            <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">project</a></li>
-                <li><a href="#">contact</a></li>
-            </ul>
-            <button onclick="myFunction()" id="light-mode-change">
-                <span class="material-symbols-outlined">light_mode</span>
-            </button>
-        </div>
-    </nav>
     <div class="home" id="home">
+        <nav>
+            <div class="logo">ishuduwal</div>
+            <div class="list-option">
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#">project</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+                <button onclick="myFunction()" id="light-mode-change">
+                    <span class="material-symbols-outlined">light_mode</span>
+                </button>
+            </div>
+        </nav>
         <div class="introduction-one">
             <span class="intro-name">Hello, My name is</span>
             <span class="intro-full-name">Ishu Duwal.</span>
@@ -34,6 +34,27 @@
             <p class="short-information-one">I am a student who is currently pursuing degree in BCA(Bachelor in Computer Application).</p>
             <p class="short-information-two">Currently, I'm focused on learning Javascript and Css frameworks and building few web things.</p>
             <button class="download-cv">Download CV</button>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <h1>About Me</h1>
+        <div class="about-section">
+            <img src="luis-villasmil-S2qA7JhjI6Y-unsplash.jpg" class="image">
+            <div class="info-abt">
+                <p class="about-section-info">
+                    Hello! My name is <span class="color-it">Ishu Duwal</span>. I am a passionate web developer with good knowledge of HTML CSS, basics of javascript and tailwind css.
+                    My interest in web development started in 2022, that's when i decided to go for it. I want to go for <span class="color-it">fullstack</span> development in future days.
+                </p>
+                <p class="about-section-info">
+                    I have made few frontend <span class="color-it">HTML CSS and JS</span> projects. I learn new scripting and programming languages through udemy and youtube courses.
+                    These days, I am learning Javascript and CSS framework and working on few frontend projects. 
+                </p>
+                <p class="about-section-info">
+                    I can build frontend designs and web designs for work.
+                </p>
+                <button class="hire-me">Hire Me</button>
+            </div>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
