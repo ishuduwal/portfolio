@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
 body{
     background-color: #0a192f;
     color: #fff;
@@ -11,8 +15,12 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 2rem 0 2rem;
+    padding: 1.5rem 2rem 0.5rem 2rem;
     width: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    background-color: #0a192f;
 }
 .list-option, ul{
     display: flex;
@@ -62,22 +70,26 @@ a:hover{
     background-color: #fff;
     color:#000;
 }
+.home{
+    height: 80vh;
+    width: 100%;
+}
 .introduction-one{
     display: grid;
-    margin: 8rem 0 0 10rem;
+    margin: 12rem 0 0 10rem;
 }
-.download-cv{
-    width: 10rem;
-    height: 2.2rem;
+.download-cv, .hire-me{
+    width: 12rem;
+    height: 2.6rem;
     border: 1px solid #64ffda;
     background: transparent;
     color: #fff;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
     transition: 0.5s;
 }
-.download-cv:hover{
+.download-cv:hover, .hire-me:hover{
     background-color: #64ffda;
     color: #0a192f;
 }
@@ -85,25 +97,64 @@ a:hover{
     color: #64ffda;
     font-size: 1.3rem;
     font-weight: bold;
-    margin-bottom: 0.5rem;
 }
 .intro-full-name{
     color: #ccd6f6;
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: 900;
-    margin-bottom: 0.5rem;
+    font-family: 'Climate Crisis', cursive;
 }
 .intro-work{
     color: #ccd6f6;
-    font-size: 4rem;
+    font-size: 3.8rem;
     font-weight: 900;
-    margin-bottom: 0.5rem;
-}
-.short-information-one, .short-information-two{
-    font-size: 1rem;
-}
-.short-information-two{
+    font-family: 'Climate Crisis', cursive;
     margin-bottom: 1rem;
 }
-
+.short-information-one, .short-information-two{
+    font-size: 1.2rem;
+    font-family: 'Climate Crisis', cursive;
+}
+.short-information-two{
+    margin-bottom: 2rem;
+}
+.about{
+    height: 100vh;
+    width: 100%;
+}
+.image{
+    height: 550px;
+    width: 450px;
+    border: 1px solid #64ffda;
+    padding: 0.7rem;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+.image:hover{
+    filter: grayscale(0);
+}
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 6rem 0 10rem;
+    gap:5rem;
+}
+h1{
+    margin: 3rem 0 0 10rem;
+    font-size: 3.5rem;
+    color: #64ffda;
+    font-family: 'Climate Crisis', cursive;
+}
+.info-abt{
+    margin-top: 4rem;
+}
+.about-section-info{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Climate Crisis', cursive;
+}
+.color-it{
+    color: #64ffda;
+}
 
