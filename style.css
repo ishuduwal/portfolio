@@ -79,7 +79,20 @@ li{
     display: grid;
     margin: 12rem 0 0 10rem;
 }
-.download-cv, .hire-me, .submit{
+.download-cv{
+    border: 1px solid #64ffda;
+    width: 12rem;
+    height: 2.6rem;
+    text-align: center;
+    padding-top: 0.4rem;
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: bold;
+    background: transparent;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.hire-me, .submit{
     width: 12rem;
     height: 2.6rem;
     border: 1px solid #64ffda;
@@ -104,18 +117,15 @@ li{
     color: #ccd6f6;
     font-size: 4.5rem;
     font-weight: 900;
-    font-family: 'Climate Crisis', cursive;
 }
 .intro-work{
     color: #ccd6f6;
     font-size: 3.8rem;
     font-weight: 900;
-    font-family: 'Climate Crisis', cursive;
     margin-bottom: 1rem;
 }
 .short-information-one, .short-information-two{
     font-size: 1.2rem;
-    font-family: 'Climate Crisis', cursive;
 }
 .short-information-two{
     margin-bottom: 2rem;
@@ -145,7 +155,6 @@ h1{
     margin: 3rem 0 0 10rem;
     font-size: 3.5rem;
     color: #64ffda;
-    font-family: 'Climate Crisis', cursive;
 }
 .info-abt{
     margin-top: 4rem;
@@ -154,7 +163,6 @@ h1{
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-size: 1.2rem;
-    font-family: 'Climate Crisis', cursive;
 }
 .color-it{
     color: #64ffda;
@@ -173,7 +181,6 @@ h1{
 }
 #project-text-info{
     margin: 1rem 0 0 10rem;
-    font-family: 'Climate Crisis', cursive;
     font-size: 1.2rem;
 }
 #twitter-clone, #instagram-clone, #hamropatro-clone, #office-clone, #bgcolor{
@@ -185,7 +192,6 @@ h1{
     color: #fff;
     text-decoration: none;
     font-size: 1rem;
-    font-family: 'Climate Crisis', cursive;
 }
 .sample-project-one:hover{
     border: 1px solid #64ffda;
@@ -203,7 +209,6 @@ h1{
 .container-contact{
     margin: 4rem 0 0 10rem;
     display: flex;
-    font-family: 'Climate Crisis', cursive;
 }
 h2{
     font-size: 3rem;
@@ -233,7 +238,6 @@ h3{
     color: #fff;
     font-size: 1rem;
     padding-left: 0.5rem;
-    font-family: 'Climate Crisis', cursive;
 }
 .input-field{
     margin-bottom: 1rem;
@@ -245,7 +249,6 @@ h3{
     color: #fff;
     font-size: 1rem;
     padding-left: 0.5rem;
-    font-family: 'Climate Crisis', cursive;
 }
 input[type="text"]::-webkit-input-placeholder{
     color: #fff;
