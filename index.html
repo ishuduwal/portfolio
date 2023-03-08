@@ -10,6 +10,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato&family=PT+Sans&family=Poppins:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://kit.fontawesome.com/68ca6c3423.css" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="home" id="home">
@@ -17,10 +19,10 @@
             <div class="logo">ishuduwal</div>
             <div class="list-option">
                 <ul>
-                    <li><a href="#home">home</a></li>
-                    <li><a href="#about">about</a></li>
-                    <li><a href="#">project</a></li>
-                    <li><a href="#">contact</a></li>
+                    <li><a href="#home" class="navbar-list">home</a></li>
+                    <li><a href="#about" class="navbar-list">about</a></li>
+                    <li><a href="#project" class="navbar-list">project</a></li>
+                    <li><a href="#contact" class="navbar-list">contact</a></li>
                 </ul>
                 <button onclick="myFunction()" id="light-mode-change">
                     <span class="material-symbols-outlined">light_mode</span>
@@ -41,22 +43,85 @@
         <div class="about-section">
             <img src="luis-villasmil-S2qA7JhjI6Y-unsplash.jpg" class="image">
             <div class="info-abt">
-                <p class="about-section-info">
+                <p id="about-section-info">
                     Hello! My name is <span class="color-it">Ishu Duwal</span>. I am a passionate web developer with good knowledge of HTML CSS, basics of javascript and tailwind css.
                     My interest in web development started in 2022, that's when i decided to go for it. I want to go for <span class="color-it">fullstack</span> development in future days.
                 </p>
-                <p class="about-section-info">
+                <p id="about-section-info">
                     I have made few frontend <span class="color-it">HTML CSS and JS</span> projects. I learn new scripting and programming languages through udemy and youtube courses.
                     These days, I am learning Javascript and CSS framework and working on few frontend projects. 
                 </p>
-                <p class="about-section-info">
+                <p id="about-section-info">
                     I can build frontend designs and web designs for work.
                 </p>
                 <button class="hire-me">Hire Me</button>
             </div>
             </div>
         </div>
-    </div>
+        <div class="project" id="project">
+            <h1>Projects</h1>
+            <p id="project-text-info">Made these few projects using HTML, CSS and Javascript.</p>
+            <div class="sample-project">
+                <div class="sample-project-one">
+                    <a href="https://ishuduwal.github.io/twitterclone/" target="_blank" id="project-link-section">
+                        <img src="twitter.jpg" id="twitter-clone">
+                        <p id="name-project">Twitter clone</p>
+                    </a>
+                </div>
+                <div class="sample-project-one">
+                    <a href="https://ishuduwal.github.io/instagram-homeclone/" target="_blank" id="project-link-section">
+                        <img src="instagram.jpg" id="twitter-clone">
+                        <p id="name-project">Instagram clone</p>
+                    </a>
+                </div>
+                <div class="sample-project-one">
+                    <a href="https://ishuduwal.github.io/hamropatro-home-clone/" target="_blank" id="project-link-section">
+                        <img src="hamropatro.jpg" id="twitter-clone">
+                        <p id="name-project">Hamropatro clone</p>
+                    </a>
+                </div>
+            </div>
+            <div class="sample-project">
+                <div class="sample-project-one">
+                    <a href="https://ishuduwal.github.io/twitterclone/" target="_blank" id="project-link-section">
+                        <img src="twitter.jpg" id="twitter-clone">
+                        <p id="name-project">Background color change</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <h1>Contact</h1>
+            <div class="container-contact">
+                <div class="contanier-one">
+                    <h2>Let's get connected!!!</h2>
+                    <h3>A freelancer</h3>
+                    <p id="contact-id">Tell me about your projects.</p>
+                    <a href="#" id="my-email">ishuduwal8@gmail.com</a>
+                    <div class="social-media">
+                        <div>
+                            <a href="#" class="social-icons"><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                        <div>
+                            <a href="#" class="social-icons"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div>
+                            <a href="#" class="social-icons"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <div>
+                            <a href="#" class="social-icons"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-two">
+                    <input type="text" placeholder="First name" class="msg-one">
+                    <input type="text" placeholder="Last name" class="msg-one">
+                    <input type="email" placeholder="Email here" class="msg-one">
+                    <textarea type="text" class="input-field textarea-field" placeholder="Message"></textarea>
+                    <button class="submit">Submit</button>
+                </div>
+            </div>
+        </div>
     <script src="script.js"></script>
 </body>
 </html>
