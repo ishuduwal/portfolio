@@ -20,7 +20,7 @@ nav{
     position: fixed;
     z-index: 100;
     top: 0;
-    background-color: #0a192f;
+    background-color:  rgba(10, 25, 47, 0.99);
 }
 .list-option, ul{
     display: flex;
@@ -30,7 +30,7 @@ li{
     list-style-type: none;
     padding-top:0.3rem;
 }
-a{
+.navbar-list{
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
@@ -38,7 +38,7 @@ a{
     font-size: 1rem;
     position: relative;
 }
-a:after{
+.navbar-list:after{
     content: "";
     position:absolute;
     background-color:#64ffda;
@@ -48,10 +48,10 @@ a:after{
     bottom:-10px;
     transition: 0.5s;
 }
-a:hover:after{
+.navbar-list:hover:after{
     width: 100%;
 }
-a:hover{
+.navbar-list:hover{
     color: #64ffda;
 }
 .logo{
@@ -78,7 +78,7 @@ a:hover{
     display: grid;
     margin: 12rem 0 0 10rem;
 }
-.download-cv, .hire-me{
+.download-cv, .hire-me, .submit{
     width: 12rem;
     height: 2.6rem;
     border: 1px solid #64ffda;
@@ -89,7 +89,7 @@ a:hover{
     cursor: pointer;
     transition: 0.5s;
 }
-.download-cv:hover, .hire-me:hover{
+.download-cv:hover, .hire-me:hover, .submit:hover{
     background-color: #64ffda;
     color: #0a192f;
 }
@@ -148,7 +148,7 @@ h1{
 .info-abt{
     margin-top: 4rem;
 }
-.about-section-info{
+#about-section-info{
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-size: 1.2rem;
@@ -157,4 +157,109 @@ h1{
 .color-it{
     color: #64ffda;
 }
-
+.project{
+    height: 100vh;
+    width: 100%;
+}
+.sample-project-one{
+    height: 13.2rem;
+    width: 22rem;
+    background-color: #112240;
+    text-align: center;
+    padding: 1.4rem 1rem 1rem  1rem;
+    border-radius: 0.3rem;
+}
+#project-text-info{
+    margin: 1rem 0 0 10rem;
+    font-family: 'Climate Crisis', cursive;
+    font-size: 1.2rem;
+}
+#twitter-clone{
+    height: 10rem;
+    width: 20rem;
+    border-radius: 0.3rem;
+}
+#project-link-section{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Climate Crisis', cursive;
+}
+.sample-project-one:hover{
+    border: 1px solid #64ffda;
+    transform: scale(1.04);
+}
+.sample-project{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 0 0 7rem;
+}
+.contact{
+    height: 100vh;
+    width: 100%;
+}
+.container-contact{
+    margin: 4rem 0 0 10rem;
+    display: flex;
+    font-family: 'Climate Crisis', cursive;
+}
+h2{
+    font-size: 3rem;
+    margin-top: 4rem;
+}
+h3{
+    font-size: 2rem;
+    color: #64ffda;
+}
+#contact-id{
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+#my-email{
+    color: white;
+}
+.container-two{
+    display: grid;
+    margin-left: 10rem;
+}
+.msg-one{
+    background-color: #112240;
+    border: 1px solid #64ffda;
+    margin-bottom: 1rem;
+    outline: none;
+    height: 3rem;
+    color: #fff;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    font-family: 'Climate Crisis', cursive;
+}
+.input-field{
+    margin-bottom: 1rem;
+    background-color: #112240;
+    border: 1px solid #64ffda;
+    outline: none;
+    height: 5rem;
+    width: 27rem;
+    color: #fff;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    font-family: 'Climate Crisis', cursive;
+}
+input[type="text"]::-webkit-input-placeholder{
+    color: #fff;
+}
+input[type="email"]::-webkit-input-placeholder{
+    color: #fff;
+}
+textarea[type="text"]::-webkit-input-placeholder{
+    color: #fff;
+}
+.social-media{
+    margin-top: 1rem;
+    display: flex;
+    gap:1.2rem;
+}
+.social-icons{
+    color: #fff;
+    font-size: 1.2rem;
+}
