@@ -270,3 +270,6 @@ textarea[type="text"]::-webkit-input-placeholder{
     color: #fff;
     font-size: 1.2rem;
 }
+::-webkit-scrollbar{
+    display: none;
+}
