@@ -187,6 +187,9 @@ h1{
     width: 20rem;
     border-radius: 0.3rem;
 }
+#twitter-clone:hover, #instagram-clone:hover, #hamropatro-clone:hover, #office-clone:hover, #bgcolor:hover{
+    transform: scale(1.08);
+}
 #project-link-section{
     color: #fff;
     text-decoration: none;
